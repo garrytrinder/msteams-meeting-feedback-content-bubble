@@ -1,0 +1,35 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "🙋 What question would you like to ask?",
+      "wrap": true
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "question",
+      "style": "expanded",
+      "wrap": true,
+      "isRequired": true,
+      "errorMessage": "Select a question",
+      "choices": [
+        {
+          "$data": "${questions}",
+          "title": "${text}?",
+          "value": "${text}?"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Ask question",
+      "verb": "question",
+      "mode": "primary"
+    }
+  ]
+}

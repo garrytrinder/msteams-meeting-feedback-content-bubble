@@ -11,7 +11,7 @@ This sample demonstrates how to implement a meeting content bubble to capture at
 - Teams Toolkit v4.1.0
 - Meeting created in Microsoft Teams
 
-## Path to awesome
+## Minimal path to awesome
 
 - Clone repo, open in Visual Studio Code
 - Run debug (F5)
@@ -22,6 +22,7 @@ This sample demonstrates how to implement a meeting content bubble to capture at
     - Add `FRONTEND_ENDPOINT=https://localhost:53000`
     - Add `FRONTEND_DOMAIN=localhost`
     - Add `TEAMS_APP_ID=<appid>`
+        - Where `<appId>` is `id` from manifest
 - Run debug (F5)
 - Join meeting
 - @ mention the bot in the chat

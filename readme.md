@@ -2,6 +2,8 @@
 
 This sample demonstrates how to implement a meeting content bubble to capture attendee feedback.
 
+![Meeting Feedback Content Bubble Microsoft Teams App](./img/app.gif)
+
 ## Prerequisites
 
 - Microsoft 365 Tenant with Sideloading enabled
